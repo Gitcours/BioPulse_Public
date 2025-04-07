@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Classe Objet">
+      <UniqueIdentifier>{beeefd45-6ca8-481a-b939-f4ec9a898ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Classe Objet">
+      <UniqueIdentifier>{d75c1e22-e980-405a-9dba-bc0a3f6ca981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Générale">
+      <UniqueIdentifier>{4e3d4544-3e9f-4e37-b7e7-163500893c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Générale">
+      <UniqueIdentifier>{874a15db-50ff-4989-8c02-3b952206cf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Map">
+      <UniqueIdentifier>{98743e69-e26d-4861-abae-c995e4cfd0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\map">
+      <UniqueIdentifier>{2c3d723c-bcdd-43eb-98b6-3d251a6b2cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Threads">
+      <UniqueIdentifier>{21ed432d-dd62-4bcd-9eaa-12ee908290c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Threads">
+      <UniqueIdentifier>{f832188b-17fe-4f12-bfb2-125c85ef4e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Classe Objet\Ennemies">
+      <UniqueIdentifier>{7805fbc0-899f-4c9f-b85a-89be52b82d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Classe Objet\Ennemies">
+      <UniqueIdentifier>{9a34606b-633c-4e05-a0b7-2972e887424e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Classe Objet\Ennemies\Boss">
+      <UniqueIdentifier>{8dbb93fc-f962-45a5-ae75-32783232c862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Classe Objet\Ennemies\Boss">
+      <UniqueIdentifier>{449cc760-16b4-42a1-8af1-58f40e460cf8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Fichiers sources\Générale</Filter>
+    </ClCompile>
+    <ClCompile Include="Outils.cpp">
+      <Filter>Fichiers sources\Générale</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources\Générale</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameManagement.cpp">
+      <Filter>Fichiers sources\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp">
+      <Filter>Fichiers sources\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Générale</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Crabe.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Hippocampe.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PoissonGlobe.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectiles.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyFishGenerator.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMeduse.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Medusa.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Fichiers sources\Classe Objet</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningLaser.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Fichiers sources\Classe Objet\Ennemies\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGrid.hpp">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGrid.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletHippocampe.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tentacle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Fichiers d%27en-tête\Générale</Filter>
+    </ClInclude>
+    <ClInclude Include="Outils.h">
+      <Filter>Fichiers d%27en-tête\Générale</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameManagement.h">
+      <Filter>Fichiers d%27en-tête\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h">
+      <Filter>Fichiers d%27en-tête\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Fichiers d%27en-tête\Générale</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\Générale</Filter>
+    </ClInclude>
+    <ClInclude Include="Crabe.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Hippocampe.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PoissonGlobe.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PoissonGlobe.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyFishGenerator.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Medusa.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMeduse.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectiles.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningLaser.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Fichiers d%27en-tête\Classe Objet\Ennemies\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletHippocampe.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Tentacle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
