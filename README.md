@@ -11,3 +11,7 @@ Z = climb
 Espace = jump
 
 S = crouch
+
+Left click = shoot
+
+Escape = pause
