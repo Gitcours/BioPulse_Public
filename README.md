@@ -1,7 +1,6 @@
-#/!\ Release only /!\
+# /!\ Release only /!\
 
-
-##Controls :
+## Controls :
 
 QD = movement
 
